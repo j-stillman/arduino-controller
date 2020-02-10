@@ -8,4 +8,5 @@ The Arduino takes in input from buttons and a joystick that are connected to the
 The Processing sketch, ledDriver.pde, periodically reads from a local text file led.txt, which is manipulated by GameMaker. This file is just 3 bits, each one corresponding to an LED on the controller. Any time it notices a change from 0 to 1 or vice versa, it sends the signal to the Arduino to turn the light on or off.
 
 Demonstration video: https://www.youtube.com/watch?v=IrtBmlKMP_o
+
 The game, ArrJiiBii, can be found here: https://burlapthemonkey.itch.io/arrjiibii
